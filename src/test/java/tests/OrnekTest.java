@@ -1,7 +1,10 @@
 package tests;
 
+import org.testng.annotations.Test;
+
 public class OrnekTest {
-    public static void main(String[] args) {
-        System.out.println("omer");
+    @Test
+    public void testName() {
     }
 }
+
