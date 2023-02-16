@@ -1,4 +1,4 @@
-package pages;
+package pages.omer;
 
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
