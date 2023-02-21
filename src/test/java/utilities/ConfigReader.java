@@ -3,6 +3,7 @@ package utilities;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+
 public class ConfigReader {
     //    Bu sinif configuration.properties file i okumak icin kullanilir
 //    property file i okumak icin properti objecsi kullanilir
@@ -32,3 +33,4 @@ public class ConfigReader {
         return value;
     }
 }
+

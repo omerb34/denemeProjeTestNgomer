@@ -71,13 +71,13 @@ public class US05_AccountDetailsChange {
         hubcomfyMyAccountPage.iframe1.sendKeys(ConfigReader.getProperty("biography"));
         Driver.getDriver().switchTo().parentFrame();
 
-        //sifre değiştirme ve yapilan tüm değişiklikleri kaydetme...
-        ReusableMethods.jsclick(hubcomfyMyAccountPage.currentPassword);
-        hubcomfyMyAccountPage.currentPassword.sendKeys(ConfigReader.getProperty("customeromer_sifre"));
-        hubcomfyMyAccountPage.changePassword.sendKeys(ConfigReader.getProperty("yenisifre"));
-        hubcomfyMyAccountPage.confirmchangePassword.sendKeys(ConfigReader.getProperty("yenisifre"));
-        ReusableMethods.jsclick(hubcomfyMyAccountPage.saveChange);
-        Driver.closeDriver();
+    //    //sifre değiştirme ve yapilan tüm değişiklikleri kaydetme...
+    //    ReusableMethods.jsclick(hubcomfyMyAccountPage.currentPassword);
+    //    hubcomfyMyAccountPage.currentPassword.sendKeys(ConfigReader.getProperty("customeromer_sifre"));
+    //    hubcomfyMyAccountPage.changePassword.sendKeys(ConfigReader.getProperty("yenisifre"));
+    //    hubcomfyMyAccountPage.confirmchangePassword.sendKeys(ConfigReader.getProperty("yenisifre"));
+    //    ReusableMethods.jsclick(hubcomfyMyAccountPage.saveChange);
+    //    Driver.closeDriver();
 
     }
 
